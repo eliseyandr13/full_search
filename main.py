@@ -24,7 +24,6 @@ def check_if_not_response(response):
 
 def request_on_image(spn, geocode):
     map_api_server = "http://static-maps.yandex.ru/1.x/"
-    print(f"{geocode.split(",")[0]},{geocode.split(",")[-1]},pm2dgl")
     map_params = {
         "ll": geocode,
         "spn": spn,
